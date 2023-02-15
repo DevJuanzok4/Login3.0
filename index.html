@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/kollektif');
+    </style>
+</head>
+
+<body>
+
+
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Bem Vindo(a) ao Atlas <br> Junte-se a Nós </h1>
+           <img src="jellyfish-animate.svg" alt="" class="left-login-image" >
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+            <h1>Login</h1>
+            
+                <div class="textfield">
+                    <label for="Usuario">Usuário</label>
+                    <input type="text" placeholder="Usuário" name="sUsuário" id="login">
+                </div>
+                <div class="textfield">
+                    <label for="Senha">Senha</label>
+                    <input type="password" name="Senha" placeholder="Senha" id="senha">
+                </div>
+                <button class="btn-login" onclick="Logar();return false"> Login</button>
+
+               <div class="Login-recused" > 
+                <a href="#">Criar Sua Conta</a>
+                <a href="#">Esqueceu sua Senha?</a>
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        function Logar() {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+            if (login == "freefire123" && senha == "reidaawm") {
+                alert('Sucesso')
+                location.href = "https://hoodshoop.com.br/";
+            } else {
+                alert('Usuário ou Senha incorretos')
+            }
+        }
+    </script>
+</body>
+
+</html>

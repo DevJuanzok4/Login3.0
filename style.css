@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Kollektif', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1b1e23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-login{
+
+width: 50vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.left-login-image{
+    width: 40vw;
+}
+
+.left-login > h1{
+    color: #8797B0;
+    font-size: 3vw;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-login > h1{
+    color: #8797B0;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login > h1{
+    font-weight: 800;
+    margin: 0;
+    color: aquamarine;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #35407A;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #272c33;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    color: #8797B0;
+    font-size: 12px;
+    box-shadow: 0px 10px 40px #272c33;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+.textfield > input::placeholder{
+    color: #272c33;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    cursor: pointer;
+    background-color: #1E40E3;
+    box-shadow: 0px 10px 40px -12px #272c33;
+}
+
+.login-recused{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.login-recused > :hover{
+    text-decoration: underline;
+    color: white;
+}
+
+a:link{
+   background-color: aquamarine;
+ color: #FFF;
+ text-decoration: none;
+ font-weight: bold;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #ffffff;
+ 
+ border-left-color: #ffffff;
+}
+
+
+@media only screen
